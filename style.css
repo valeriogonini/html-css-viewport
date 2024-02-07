@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+
+}
+ul, ol, menu{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+ .app{
+    height: 100vh;
+    color: white;
+    display: flex;
+    background-color: rgb(43, 34, 34);
+ }
+ main
+ {
+    width: 100%;
+ }
+   
+.button-1{
+    background-color:rgba(0, 0, 0, 0.497);
+    padding: 30px 0;
+}
+.login{
+    justify-content: flex-end;
+}
+.button-login{
+    color: black;
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+ 
+ 
+ .my-profilo{
+    display: flex;
+    align-items: flex-end;
+ }
+ .app header{
+ 
+    padding: 10px 40px;
+    background-color: black;
+ }
+
+
+ 
+ footer {
+    background-color: grey;
+ }
+.row .lista{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+
+ }
+ footer .row{
+    justify-content: space-between;
+ }
+ 
+ 
