@@ -5,7 +5,8 @@
 }
 a {
     text-decoration: none;
-    color: white;
+    color: currentColor;
+   
 }
 .container{
     margin: 0 auto;
@@ -34,12 +35,13 @@ button{
 
  header{
      display: flex;
+     overflow: overlay;
  }
  .list-head{
     margin-left: 15px;
  }
  .overflow{
-    overflow:hidden;
+    overflow:overlay;
 
  }
 
@@ -116,6 +118,7 @@ button{
  footer {
     background-color: grey;
     padding: 30px 40px;
+    color: white;
  }
 .row .lista{
     list-style: none;
